@@ -1,14 +1,17 @@
-const GET_FILMS = "GET_FILMS";
-
 const initialState = {
-  films: [],
+  loading: true,
+  movies: [],
+  errorMessage: null,
 };
 
 const filmsReducer = (state = initialState, action) => {
   switch (action.type) {
-    case GET_FILMS: {
-      return { ...state, films: [...action.films] };
-    }
+    case "SEARCH_MOVIES_REQUEST":
+      return {
+        ...state,
+        loading: true,
+        errorMessage: null,
+      };
     default:
       return state;
   }

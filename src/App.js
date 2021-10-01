@@ -5,7 +5,6 @@ const App = () => {
   return (
     <div>
       Hello world!
-      <button> Find films</button>
       <FilmsList />
     </div>
   );
