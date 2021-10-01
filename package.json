@@ -2,6 +2,7 @@
   "name": "moviesapp",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://taras-kolomiiets.github.io/ds_test",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
