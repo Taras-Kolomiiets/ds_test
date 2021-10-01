@@ -1,9 +1,9 @@
 import { applyMiddleware, createStore, combineReducers } from "redux";
-import filmsReducer from "./films-reducer";
+import movies from "./movies-reducer";
 import thunk from "redux-thunk";
 
 const reducers = combineReducers({
-  filmsReducer,
+  movies,
 });
 
 const store = createStore(reducers, applyMiddleware(thunk));
