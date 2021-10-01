@@ -14,7 +14,7 @@ const App = () => {
       <div className="row">
         <Router>
           <Switch>
-            <Route exact path="/" component={MoviesResults} />
+            <Route exact path="/ds_test" component={MoviesResults} />
           </Switch>
         </Router>
       </div>
